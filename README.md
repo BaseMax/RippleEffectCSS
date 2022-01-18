@@ -5,7 +5,7 @@ Most Ripple tools just run an animation from a fix point, This tiny library prov
 <p>
   <div align="center">
 
-![](demo.jpg)
+[![](demo.jpg)](https://basemax.github.io/RippleEffectCSS/demo.html)
 
   </div>
 </p>
