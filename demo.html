@@ -17,7 +17,8 @@
  }
  /* outlined */
  .outlined{
-    border: 2px solid black;
+  --ripple-background: black;
+  border: 2px solid black;
   background-color: white;
   color: red;
   padding: 14px 28px;
@@ -30,8 +31,14 @@
      --ripple-background: black;
     --ripple-opacity: 0.1;
     --ripple-duration: 900ms;
-    
-  }
+
+    width: 106px;
+    height: 36px;
+    background: red;
+    text-align: center;
+    display: inline-block;
+    padding-top: 14px;
+}
 /* contained variant */
  .contained{
      height: 50px;
