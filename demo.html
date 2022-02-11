@@ -1,25 +1,69 @@
 <!-- Style -->
-<link rel="stylesheet" type="text/css" href="ripple.css">
+<link rel="stylesheet" type="text/css" href="ripple.css" />
 
 <!-- Demo -->
 <style>
-a, button {
-    width: 200px;
-    height: 80px;
-    background: green;
-}
+    /*  variant */
+ .text{
+    border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+ }
+ .text:hover{
+  background-color: #ddd;
+ }
+ /* outlined */
+ .outlined{
+    border: 2px solid black;
+  background-color: white;
+  color: red;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+ }
 
-/* Optional */
-a {
-    /* Override default ripple effect */
-    --ripple-background: black;
+  /* Optional */
+  a { 
+     --ripple-background: black;
     --ripple-opacity: 0.1;
-    --ripple-duration: 600ms;
-}
-</style>
+    --ripple-duration: 900ms;
+    
+  }
+/* contained variant */
+ .contained{
+     height: 50px;
+     width: 100px;
+     background-color: green;
+ }
 
-<button effect="ripple">Button</button>
-<a href="#" effect="ripple" style="display:block;">Button</a>
+  /* centers the div */
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px;
+    padding: 10px;
+  }
+</style>
+<head>
+  Ripple Buttons
+</head>
+<body>
+  <div class="center">
+    <button effect="ripple" class="outlined">Button</button>
+  </div>
+  <div class="center">
+    <a href="#" effect="ripple">Button</a>
+  </div>
+  <div class="center">
+    <button effect="ripple" class="contained">Button</button>
+  </div>
+  <div class="center">
+    <button effect="ripple" class="text">Button</button>
+  </div>
+</body>
 
 <!-- Script -->
 <script type="text/javascript" src="ripple.js"></script>
