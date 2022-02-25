@@ -9,6 +9,8 @@ Demo: https://basemax.github.io/RippleEffectCSS/demo.html
 
 [![](demo.jpg)](https://basemax.github.io/RippleEffectCSS/demo.html)
 
+[![](poster.jpg)](https://basemax.github.io/RippleEffectCSS/demo.html)
+
   </div>
 </p>
 
